@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "messages": {
+    "success": [
+      "SEARCH_QUERY_SUCCESS"
+    ]
+  },
+  "metadata": {
+    "count": 7,
+    "data": [
+      {
+        "name": "Schlafgut Spannbettlaken",
+        "description": "Wenn es um Spannbettlaken geht, sind elastische Stoffe wie dehnbares und formbeständiges Jersey oder Mako-Satin Grundvoraussetzung. Denn nur aus diesen Stoffen sitzen die Laken mit Rundum-Gummizug passgenau auf Toppern, Boxspringbetten und herkömmlichen Matratzen in unterschiedlichen Breiten. Von Weiß über Grau bis hin zu Blau – diese eleganten Spannbettlaken sind die Basics für guten Schlaf!",
+        "url_key": "c-schlafgut-spannbettlaken10",
+        "image": {
+          "url": "https://cdn-ww.westwing.com/image/upload/v1623334165/club/de/campaign/DESPAN12/original_43"
+        }
+      },
+      {
+        "name": "Keine Chance für Stechmücken",
+        "description": "Summende Bienen, zwitschernde Vögel und umherschwirrende Schmetterlinge – das ist Sommer pur! Und was weniger beliebte Summer angeht: Die finden dank Anti-Mücken-Kerzen, Räucherspiralen und Insektenhotels, in denen ihre Feinde hausen, gar nicht erst in Ihre Sommeroase. Super Deal, denn Bienen und Marienkäfer sorgen für Summer Vibes und gleichzeitig dafür, dass die fiesen Stecker fern bleiben. ",
+        "url_key": "c-keine-chance-fuer-stechmuecken",
+        "image": {
+          "url": "https://cdn-ww.westwing.com/image/upload/v1623334305/club/de/campaign/DESTEC2/original_43"
+        }
+      },
+      {
+        "name": "Ein Sommerhaus auf dem Land",
+        "description": "Barfuß durchs Gras laufen, Sonnenbaden im Garten oder der Duft einer Blumenwiese … auch wenn das Sommerhaus im Grünen manchmal nur ein schöner Traum bleibt, im eigenen Zuhause lässt sich das Gefühl von entspannter Landflucht auch verwirklichen. Zum Beispiel mit einem zeitgemäßen Country-Styling, das unbedingt nostalgischen Chic, rustikale Naturmaterialien und Modernes zusammenbringen sollte.",
+        "url_key": "c-ein-sommerhaus-auf-dem-land",
+        "image": {
+          "url": "https://cdn-ww.westwing.com/image/upload/v1623334346/club/de/campaign/DESUMM153/original_43"
+        }
+      },
+      {
+        "name": "Elegante Blütenträume",
+        "description": "",
+        "url_key": "c-elegante-bluetentraeume",
+        "image": {
+          "url": "https://cdn-ww.westwing.com/image/upload/v1623334392/club/de/campaign/DEFLOR16/original_43"
+        }
+      },
+      {
+        "name": "Eicie",
+        "description": "Schon immer faszinieren uns Illustrationen aus der Botanik oder der Zoologie. Deshalb legt das Berliner Label Eicie Motive von Elefanten oder Zitronen neu auf. Das Besondere daran: Die Drucke von Lithografien, Radierungen oder Holzschnitten werden auf Stoff in Museumsqualität aufgebracht und wirken dank der Poster-Leisten beinahe wie aus dem Antiquariat. Perfekt für den besonderen Twist!",
+        "url_key": "c-eicie",
+        "image": {
+          "url": "https://cdn-ww.westwing.com/image/upload/v1623334451/club/de/campaign/DEEICI1/original_43"
+        }
+      },
+      {
+        "name": "Kooko Home",
+        "description": "Schlichtes Design gepaart mit hoher Handwerkskunst. Darauf legt das Label Kooko Home großen Wert. In edlem Samt und mit wahlweise goldenen Metallfüßen zaubern Sofas, Poufs und Chaiselongues skandinavische Eleganz in Ihr Zuhause. Mit ihren weichen Kapitonierungen laden die Sitzgelegenheiten sofort zum Relaxen ein. Und in Natur- oder Edelsteinfarben findet sich für jedes Wohnkonzept das Passende.",
+        "url_key": "c-kooko-home2",
+        "image": {
+          "url": "https://cdn-ww.westwing.com/image/upload/v1623334493/club/de/campaign/DEKOOK3/original_43"
+        }
+      },
+      {
+        "name": null,
+        "description": "Wie das glänzt! Diese Hänge-, Steh- und Tischleuchten ziehen unabhängig vom Stil alle Blicke auf sich. Das liegt am Licht! Denn was die Modelle von schlicht bis glamourös eint, ist die silberne Farbigkeit, die das Licht je nach Material bricht, reflektiert und den eleganten Schimmer so verstärkt. Und die matten, funktionalen Modelle halten sich stilvoll im Hintergrund.",
+        "url_key": "c-leuchten-silber",
+        "image": {
+          "url": "https://cdn-ww.westwing.com/image/upload/v1623334571/club/de/campaign/DESHIN5/original_43"
+        }
+      }
+    ]
+  }
+}

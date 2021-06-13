@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Westwing Campaigns</string>
+    <string name="campaign_image">Campaign Image</string>
+    <string name="back">Back</string>
+    <string name="network_error">There was an error. Please check your internet connection and try again.</string>
+    <string name="retry">Retry</string>
+    <string name="call_now">Call Now</string>
+    <string name="westwing_support">08034657123</string>
+    <string name="permission_required">Permission required to complete call.</string>
+</resources>

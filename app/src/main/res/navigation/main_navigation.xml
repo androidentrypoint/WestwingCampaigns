@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation.xml"
+    app:startDestination="@id/campaignListFragment">
+
+    <fragment
+        android:id="@+id/campaignListFragment"
+        android:name="com.example.campaigns.ui.campaigns.CampaignListFragment"
+        android:label="CampaignListFragment"
+        tools:layout="@layout/fragment_campaign_list">
+        <action
+            android:id="@+id/action_campaignListFragment_to_campaignDetailFragment"
+            app:destination="@id/campaignDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/campaignDetailFragment"
+        android:name="com.example.campaigns.ui.campaigndetail.CampaignDetailFragment"
+        android:label="CampaignDetailFragment"
+        tools:layout="@layout/fragment_campaign_detail">
+        <argument
+            android:name="selectedCampaign"
+            app:argType="com.example.campaigns.model.Campaign" />
+    </fragment>
+</navigation>
