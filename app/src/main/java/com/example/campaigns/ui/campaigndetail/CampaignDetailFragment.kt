@@ -8,7 +8,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.core.app.SharedElementCallback
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
@@ -16,10 +15,6 @@ import androidx.lifecycle.flowWithLifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import androidx.transition.Transition
-import androidx.transition.TransitionInflater
-import androidx.viewpager2.widget.ViewPager2
-import com.example.campaigns.MainActivity
 import com.example.campaigns.R
 import com.example.campaigns.databinding.FragmentCampaignDetailBinding
 import com.example.campaigns.util.viewbinding.viewBinding
@@ -35,9 +30,7 @@ class CampaignDetailFragment : Fragment(R.layout.fragment_campaign_detail) {
 
     private val viewModel by viewModels<CampaignDetailViewModel>()
 
-    private val campaignDetailAdapter = CampaignDetailAdapter {
-        startPostponedEnterTransition()
-    }
+    private val campaignDetailAdapter = CampaignDetailAdapter()
 
     private val args by navArgs<CampaignDetailFragmentArgs>()
 
@@ -66,18 +59,7 @@ class CampaignDetailFragment : Fragment(R.layout.fragment_campaign_detail) {
         binding.back.setOnClickListener {
             findNavController().popBackStack()
         }
-
-        binding.pager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
-            override fun onPageSelected(position: Int) {
-                super.onPageSelected(position)
-                MainActivity.currentPosition = position
-            }
-        })
         setUpObservers()
-        prepareSharedElementTransition()
-        if (savedInstanceState == null) {
-            postponeEnterTransition()
-        }
 
     }
 
@@ -110,25 +92,5 @@ class CampaignDetailFragment : Fragment(R.layout.fragment_campaign_detail) {
                 )
             }
         }
-    }
-
-
-    private fun prepareSharedElementTransition() {
-        val transition: Transition = TransitionInflater.from(requireContext())
-            .inflateTransition(R.transition.image_shared_element_transition)
-        sharedElementEnterTransition = transition
-
-        setEnterSharedElementCallback(
-            object : SharedElementCallback() {
-                override fun onMapSharedElements(
-                    names: List<String?>,
-                    sharedElements: MutableMap<String?, View?>
-                ) {
-
-//                    val currentFragment = childFragmentManager.findFragmentByTag("f${binding.pager.currentItem}")
-//                    val view = (binding.pager.getChildAt(0) as? RecyclerView)?.findViewHolderForAdapterPosition(MainActivity.currentPosition)?.itemView ?: return
-                    sharedElements[names[0]] = binding.pager
-                }
-            })
     }
 }
